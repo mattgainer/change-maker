@@ -10,7 +10,7 @@ class ChangeMaker
     array.concat(Array.new(quarter).fill(25)).concat(Array.new(dime).fill(10)).concat(Array.new(nickel).fill(5)).concat(Array.new(penny).fill(1))
   end
   def go
-    (1..200).each do |number|
+    (1..100).each do |number|
       p make_change(number)
     end
     return "done"
